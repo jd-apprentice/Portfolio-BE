@@ -3,7 +3,7 @@
 ```
 >> npm i -g yarn
 
->> git clone https://github.com/jd-apprentice/Node-TS.git
+>> git clone https://github.com/jd-apprentice/Portfolio-BE.git
 
 >> cd ./Node-TS
 
@@ -19,4 +19,5 @@
 - Express
 - Mongodb
 - Mongoose
-- Heroku
+- Digital Ocean
+- Render

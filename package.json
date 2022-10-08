@@ -1,5 +1,5 @@
 {
-    "name": "nodejs-template",
+    "name": "portfolio-be",
     "version": "0.1.2",
     "main": "dist/index.js",
     "author": "jd-apprentice <emeraldusk@gmail.com>",
