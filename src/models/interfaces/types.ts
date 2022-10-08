@@ -10,10 +10,14 @@ export type Config = {
     secret: typeof process.env.TOKEN;
   };
 };
-
-export interface IUser {
-  [x: string]: any;
-  first_name: string;
-  last_name: string;
-  date_of_birth: Date;
+export interface IInfo {
+  save: () => Promise<void>;
+  first_name?: string;
+  last_name?: string;
+  about?: string;
+  role?: string;
+  picture?: string;
+  date_of_birth?: Date;
+  full_name?: string;
+  socials?: Record<string, string>;
 }
